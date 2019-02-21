@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Evaluacion Final</title>
+<script type="text/javascript" src="js/Accion.js"></script>
+<link href="./css/estilos.css" rel="stylesheet" type="text/css"/>
+<meta name="viewport" content="width=device-width,user-scalable=no">
+</head>
+<body>
+<header>
+			<h1>Informaci&oacuten de Estudiantes</h1>
+			<h2>Selecciona la operaci&oacuten</h2>
+</header>
+
+		<input id="boton" type="submit" name="boton" value="Mostrar" onclick="Mostrar(resultado)"/>
+		<input id="boton" type="submit" name="boton" value="Calcular" onclick="Promedio(resultado)" />
+		<input id="boton" type="submit" name="boton" value="Nota Mayor" onclick="NumMayor(resultado)" />
+		<input id="boton" type="submit" name="boton" value="Nota Menor" onclick="NumMenor(resultado)" />
+
+	 <form onreset="restablecer()">
+	 		<p id="Resultado"></p>
+	 		<input id="boton" type="submit" value="Limpiar busquedad" type="reset"/>
+	 </form>
+</body>
+</html>

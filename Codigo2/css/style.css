@@ -1,0 +1,60 @@
+body{
+  background-color: #E6E6FA;
+  text-align: center;
+}
+
+b {
+  position: absolute;
+  left: 34%;
+}
+
+#encabezado{
+  background: #669999;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  width: 39.2%;
+  height: 10%;
+  padding: 10px 0px 20px 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#formulario {
+  background: #68A8FF;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  width: 40%;
+  height: 35%;
+}
+
+#boton {
+  position: absolute;
+  margin-left: 38%;
+}
+
+#botones {
+  position: absolute;
+  top: 80%;
+  margin-left: 15.3%;
+}
+
+#lista {
+  background: #669999;
+  position:absolute;
+  font-size: 25px;
+  padding-top: 15px;
+  top: 55%;
+  left: 35%;
+  width: 40%;
+  height: 20%;
+}
+
+#cuadro{
+  background: #EEE;
+  position: absolute;
+  top: 67%;
+  left: 35%;
+  width: 40%;
+}

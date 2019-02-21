@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Proyecto Final|El DOM y el BOM</title>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  </head>
+    <body>
+    <h1 id="encabezado">Registro Estudiante</h1>
+    <form id="formulario">
+         <div>
+         <b>Codigo:</b>
+         <br>
+         <input type="text" id="cod"/>
+         <br>
+         <b>Nombre:</b>
+         <br>
+         <input type="text" id="nom"/>
+         <br>
+         <b>Nota:</b>
+         <br>
+         <input type="text" id="not"/>
+         <br>
+         <br>
+         </div>
+         <div id="boton">
+         <button id="BtnRegistrar">Registrar Estudiante</button>
+         </div>
+         <div id="botones">
+         <button id="BtnPromedio">Mostrar Promedio</button>
+         <button id="BtnNmayor">Mostrar Nota Mayor</button>
+         <button id="BtnNmenor">Mostrar Nota Menor</button>
+        </div>
+      </form>
+      <h2 id="lista">Listado de Estudiantes</h2>
+        <table id="cuadro" border="1">
+            <thead  id="ecuadro">
+            <tr>
+              <td><strong>Codigo</strong></td>
+              <td><strong>Nombre</strong></td>
+              <td><strong>Nota</strong></td>
+            </tr>
+            </thead>
+            <tbody id="Estudiantes">
+            </tbody>
+            <tfoot id="nuevoEstudiante">
+            </tfoot>
+        </table>
+  </body>
+</html>
